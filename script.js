@@ -15,7 +15,7 @@ function rot13(encodedStr){
   // Only change code below this line
 var words = encodedStr.split(" ");
 	for(var index = 0;index<words.length;index++){
-		var encryptedWord = words[i];
+		const encryptedWord = words[i];
 		var decryptedWord = "";
 		for(var j=0;j<encryptedWord.length;j++){
 			decryptedWord += lookup[encryptedWord.charAt(j)];
